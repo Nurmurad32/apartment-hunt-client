@@ -35,17 +35,17 @@ const HouseRentDetails = () => {
             <div className="container">
                 <div className="row" style={{marginTop:"48px"}}>
                     <div className="col-md-9 house-detail">
-                        <img src={`data:image/png;base64,${selectedHouse.picture.img}`} alt="" height="376" width="770"/>
+                        {/* <img src={`data:image/png;base64,${selectedHouse.picture.img}`} alt="" height="376" width="770"/> */}
                         <div style={{marginTop:"24px",marginBottom:'48px'}}>
                             <img src={img1} alt="" height="111" width="170" style={{marginRight:'30px'}}/>
                             <img src={img2} alt="" height="111" width="170" style={{marginRight:'30px'}}/>
                             <img src={img3} alt="" height="111" width="170" style={{marginRight:'30px'}}/>
                             <img src={img4} alt="" height="111" width="170"/>
                         </div>
-                        <div style={{display: 'flex'}}>
+                        {/* <div style={{display: 'flex'}}>
                             <h2 style={{color:'#16322E', fontSize:'36px', fontWeight:'bold'}}>{selectedHouse.title}</h2>
                             <h2 className="ml-auto" style={{color:'#275A53', fontSize:'36px', fontWeight:'bold'}}>${selectedHouse.price}</h2>
-                        </div>
+                        </div> */}
                         <p style={{color:'#747474', fontSize:'24px'}}>
                         3000 sq-ft., 3 Bedroom, Semi-furnished, Luxurious, South facing Apartment for Rent in Rangs Malancha, Melbourne.
                         </p>
