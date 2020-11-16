@@ -50,7 +50,7 @@ const HouseRent = () => {
                                         </div>
                                         <div style={{display: 'flex'}}>
                                             <h2 style={{marginRight: '60px',color: '#275A53', fontSize: '36px', fontWeight: 'bold'}}>${house.price}</h2>
-                                            <Link to="">
+                                            <Link to={"/houseRent/"+ house._id}>
                                                 <button className="btn-brand" style={{padding:"13px 30px"}}>View Details</button>
                                             </Link>
                                             
