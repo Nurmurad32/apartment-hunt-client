@@ -19,7 +19,7 @@ const HouseRentDetails = () => {
            const house= data.find(house=> house._id === houseRentId);
            setSelectedHouse(house);
         })
-    },[])
+    },[houseRentId])
     console.log(selectedHouse);
 
     return (
